@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-GB" data-root="../">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#005eb8">
+  <title>Leaflet finder (staff) - Speech and language therapy leaflets</title>
+  <link rel="icon" href="../assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="staff">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="demo-banner" class="demo-banner" hidden>Demonstration site: dummy leaflets only, not clinical advice</div>
+  <header class="site-header">
+    <div class="container">
+      <a href="./"><span class="site-name">Leaflet finder for staff</span>
+        <span class="site-org" data-site-org>Speech and Language Therapy</span></a>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="container">
+      <nav aria-label="Staff pages" class="no-print">
+        <p class="small"><a href="./">Leaflet finder</a> &nbsp;|&nbsp; <a href="qr-sheet/">Printable QR sheet</a>
+          &nbsp;|&nbsp; <a href="../">Patient library</a> &nbsp;|&nbsp; <a id="edit-link" href="https://app.pagescms.org" target="_blank" rel="noopener">Edit leaflets<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+      </nav>
+      <h1>Find leaflets</h1>
+      <p class="lede">Search, tick the leaflets for this patient, then show one QR code for all of them.</p>
+      <p class="muted small">Nothing you choose or type on this page is saved or sent anywhere. Do not add patient details to anything printed from it.</p>
+      <div id="warnings"></div>
+
+      <div class="staff-layout">
+        <section aria-labelledby="results-heading">
+          <h2 id="results-heading" class="visually-hidden">Leaflets</h2>
+          <form class="filters" id="filters" role="search" onsubmit="return false">
+            <div class="field"><label for="f-search">Search</label>
+              <input type="search" id="f-search" autocomplete="off" placeholder="Words, condition or code"></div>
+            <div class="field"><label for="f-topic">Topic</label><select id="f-topic"></select></div>
+            <div class="field"><label for="f-audience">Audience</label><select id="f-audience"></select></div>
+            <div class="field"><label for="f-type">Type</label><select id="f-type"></select></div>
+            <div class="field"><label for="f-format">Format</label><select id="f-format"></select></div>
+            <div class="field"><label for="f-condition">Condition</label><select id="f-condition"></select></div>
+          </form>
+          <div class="button-row" style="align-items:center">
+            <label class="checkbox" style="margin:0 24px 12px 0"><input type="checkbox" id="f-withdrawn"> Show withdrawn leaflets</label>
+            <button type="button" class="button button--secondary button--small" id="f-clear">Clear search and filters</button>
+          </div>
+          <p class="results-count" id="results-count" aria-live="polite"></p>
+          <ul class="leaflet-list" id="results"><li>Loading leaflets&hellip;</li></ul>
+        </section>
+
+        <aside class="tray card" id="tray" aria-labelledby="tray-heading">
+          <h2 id="tray-heading" tabindex="-1">This patient's leaflets</h2>
+          <p id="tray-empty" class="muted small">Tick leaflets in the list to add them here.</p>
+          <ol id="tray-list"></ol>
+          <p id="tray-status" class="small" aria-live="polite"></p>
+          <button type="button" class="button button--block" id="show-pack" disabled>Show QR code</button>
+          <button type="button" class="button button--secondary button--block" id="clear-pack" disabled>Clear for next patient</button>
+        </aside>
+      </div>
+
+      <h2>Keeping leaflets up to date</h2>
+      <details class="help" id="review-panel">
+        <summary id="review-summary">Review dates</summary>
+        <div id="review-body"></div>
+      </details>
+      <details class="help" id="check-panel">
+        <summary id="check-summary">Catalogue check</summary>
+        <div id="check-body"><p>Open this section to check every leaflet's details and file.</p></div>
+      </details>
+    </div>
+  </main>
+
+  <dialog class="qr-dialog" id="qr-dialog" aria-labelledby="qr-title">
+    <h2 id="qr-title">Scan to open</h2>
+    <p class="sheet-demo" id="qr-demo" hidden>DEMONSTRATION ONLY: dummy content</p>
+    <div class="qr-box" id="qr-box"></div>
+    <ol id="qr-list"></ol>
+    <p class="small">Or go to <strong id="qr-host"></strong> and type the leaflet code.</p>
+    <p class="qr-url" id="qr-url"></p>
+    <p class="small muted">This QR code contains leaflet codes only. It contains no personal information.</p>
+    <div class="button-row no-print">
+      <button type="button" class="button" id="qr-print">Print this slip</button>
+      <button type="button" class="button button--secondary" id="qr-close">Close</button>
+    </div>
+  </dialog>
+
+  <footer class="site-footer no-print">
+    <div class="container"><p class="small">Staff page. No log-in is needed because nothing on it is private.</p></div>
+  </footer>
+
+  <script src="../assets/qrcode.js"></script>
+  <script src="../assets/app.js"></script>
+  <script src="../assets/staff.js"></script>
+</body>
+</html>

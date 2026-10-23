@@ -1,0 +1,436 @@
+{
+  "leaflets": [
+    {
+      "id": "SW-001",
+      "title": "Swallowing problems after a stroke",
+      "topic": "SW",
+      "audience": [
+        "Adults",
+        "Family and carers"
+      ],
+      "type": "Information",
+      "format": "Standard",
+      "conditions": [
+        "Stroke"
+      ],
+      "keywords": "dysphagia, choking, coughing when eating, chest infection",
+      "summary": "Why swallowing can be harder after a stroke, and how our team can help.",
+      "version": 2,
+      "owner": "Stroke team lead",
+      "review_date": "2027-06-30",
+      "status": "Active",
+      "file": "files/SW-001-v2.pdf"
+    },
+    {
+      "id": "SW-002",
+      "title": "Thickened drinks: how to make them",
+      "topic": "SW",
+      "audience": [
+        "Adults",
+        "Family and carers"
+      ],
+      "type": "Safety advice",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "thickener, IDDSI, thick fluids, drinks",
+      "summary": "How to prepare drinks at the thickness your therapist recommended.",
+      "version": 3,
+      "owner": "Adult dysphagia lead",
+      "review_date": "2026-09-30",
+      "status": "Active",
+      "file": "files/SW-002-v3.pdf"
+    },
+    {
+      "id": "SW-003",
+      "title": "Eating and drinking safely (easy read)",
+      "topic": "SW",
+      "audience": [
+        "Adults"
+      ],
+      "type": "Safety advice",
+      "format": "Easy read",
+      "conditions": [
+        "Learning disability"
+      ],
+      "keywords": "swallowing, choking, mealtimes, easy read",
+      "summary": "An easy read guide to staying safe at mealtimes.",
+      "version": 1,
+      "owner": "Learning disability lead",
+      "review_date": "2027-03-31",
+      "status": "Active",
+      "file": "files/SW-003-v1.pdf"
+    },
+    {
+      "id": "SW-004",
+      "title": "Mouth care when swallowing is difficult",
+      "topic": "SW",
+      "audience": [
+        "Adults",
+        "Family and carers"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "oral care, teeth, dentures, dry mouth",
+      "summary": "How to keep the mouth clean and comfortable when swallowing is difficult.",
+      "version": 1,
+      "owner": "Adult dysphagia lead",
+      "review_date": "2026-12-31",
+      "status": "Active",
+      "file": "files/SW-004-v1.pdf"
+    },
+    {
+      "id": "SW-005",
+      "title": "Swallowing exercises after head and neck cancer treatment",
+      "topic": "SW",
+      "audience": [
+        "Adults"
+      ],
+      "type": "Exercises",
+      "format": "Standard",
+      "conditions": [
+        "Head and neck cancer"
+      ],
+      "keywords": "radiotherapy, swallow exercises, mouth opening",
+      "summary": "Exercises your therapist may ask you to do during and after treatment.",
+      "version": 2,
+      "owner": "Head and neck lead",
+      "review_date": "2027-08-31",
+      "status": "Active",
+      "file": "files/SW-005-v2.pdf"
+    },
+    {
+      "id": "SW-006",
+      "title": "Helping your child try new foods",
+      "topic": "SW",
+      "audience": [
+        "Children"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "fussy eating, feeding, mealtimes, textures",
+      "summary": "Ideas to make mealtimes calmer and help your child explore new foods.",
+      "version": 1,
+      "owner": "Paediatric team lead",
+      "review_date": "2027-04-30",
+      "status": "Active",
+      "file": "files/SW-006-v1.pdf"
+    },
+    {
+      "id": "VO-001",
+      "title": "Looking after your voice",
+      "topic": "VO",
+      "audience": [
+        "Adults"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "hoarse, voice care, vocal hygiene, teachers",
+      "summary": "Everyday habits that help keep your voice healthy.",
+      "version": 2,
+      "owner": "Voice lead",
+      "review_date": "2027-04-30",
+      "status": "Active",
+      "file": "files/VO-001-v2.pdf"
+    },
+    {
+      "id": "VO-002",
+      "title": "Speaking after a laryngectomy",
+      "topic": "VO",
+      "audience": [
+        "Adults",
+        "Family and carers"
+      ],
+      "type": "Information",
+      "format": "Standard",
+      "conditions": [
+        "Head and neck cancer"
+      ],
+      "keywords": "voice box removed, voice prosthesis, stoma",
+      "summary": "The ways people can speak after their voice box has been removed.",
+      "version": 1,
+      "owner": "Head and neck lead",
+      "review_date": "2027-09-30",
+      "status": "Active",
+      "file": "files/VO-002-v1.pdf"
+    },
+    {
+      "id": "SP-001",
+      "title": "When speech is slurred: tips for speaking clearly",
+      "topic": "SP",
+      "audience": [
+        "Adults",
+        "Family and carers"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [
+        "Stroke",
+        "Parkinson's",
+        "Motor neurone disease (MND)"
+      ],
+      "keywords": "dysarthria, slurred speech, unclear speech",
+      "summary": "Simple tips to help you be understood, and how others can help.",
+      "version": 1,
+      "owner": "Neurology lead",
+      "review_date": "2027-07-31",
+      "status": "Active",
+      "file": "files/SP-001-v1.pdf"
+    },
+    {
+      "id": "SP-002",
+      "title": "Speech exercises for Parkinson's",
+      "topic": "SP",
+      "audience": [
+        "Adults"
+      ],
+      "type": "Exercises",
+      "format": "Standard",
+      "conditions": [
+        "Parkinson's"
+      ],
+      "keywords": "quiet voice, loudness, dysarthria, practice",
+      "summary": "Daily practice your therapist may set to help keep your speech strong.",
+      "version": 1,
+      "owner": "Neurology lead",
+      "review_date": "2027-05-31",
+      "status": "Active",
+      "file": "files/SP-002-v1.pdf"
+    },
+    {
+      "id": "SP-003",
+      "title": "Helping your child with speech sounds",
+      "topic": "SP",
+      "audience": [
+        "Children"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "speech sounds, pronunciation, unclear speech, lisp",
+      "summary": "Ways to support your child's speech sounds through everyday talking and play.",
+      "version": 2,
+      "owner": "Paediatric team lead",
+      "review_date": "2027-06-30",
+      "status": "Active",
+      "file": "files/SP-003-v2.pdf"
+    },
+    {
+      "id": "SP-004",
+      "title": "Mouth exercises for speech sounds",
+      "topic": "SP",
+      "audience": [
+        "Children"
+      ],
+      "type": "Exercises",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "oral motor, tongue exercises",
+      "summary": "This leaflet has been withdrawn. Please ask your therapist for current advice.",
+      "version": 2,
+      "owner": "Paediatric team lead",
+      "review_date": "2026-06-30",
+      "status": "Withdrawn",
+      "file": "files/SP-004-v2.pdf"
+    },
+    {
+      "id": "LA-001",
+      "title": "Aphasia: when words are hard to find (aphasia-friendly)",
+      "topic": "LA",
+      "audience": [
+        "Adults"
+      ],
+      "type": "Information",
+      "format": "Aphasia-friendly",
+      "conditions": [
+        "Stroke",
+        "Brain injury"
+      ],
+      "keywords": "aphasia, dysphasia, word finding, understanding",
+      "summary": "An aphasia-friendly guide to what aphasia is and what can help.",
+      "version": 1,
+      "owner": "Stroke team lead",
+      "review_date": "2027-03-31",
+      "status": "Active",
+      "file": "files/LA-001-v1.pdf"
+    },
+    {
+      "id": "LA-002",
+      "title": "Talking with someone who has aphasia: tips for family and friends",
+      "topic": "LA",
+      "audience": [
+        "Family and carers"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [
+        "Stroke",
+        "Brain injury"
+      ],
+      "keywords": "aphasia, conversation, communication partner",
+      "summary": "Practical ways to make conversations easier for everyone.",
+      "version": 2,
+      "owner": "Stroke team lead",
+      "review_date": "2027-08-31",
+      "status": "Active",
+      "file": "files/LA-002-v2.pdf"
+    },
+    {
+      "id": "LA-003",
+      "title": "Developmental language disorder (DLD): information for parents",
+      "topic": "LA",
+      "audience": [
+        "Children"
+      ],
+      "type": "Information",
+      "format": "Standard",
+      "conditions": [
+        "Developmental language disorder (DLD)"
+      ],
+      "keywords": "DLD, language delay, understanding, talking",
+      "summary": "What DLD is, how it is identified and how you can help at home.",
+      "version": 1,
+      "owner": "Paediatric team lead",
+      "review_date": "2027-02-28",
+      "status": "Active",
+      "file": "files/LA-003-v1.pdf"
+    },
+    {
+      "id": "LA-004",
+      "title": "Communication and dementia: tips for family and carers",
+      "topic": "LA",
+      "audience": [
+        "Family and carers"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [
+        "Dementia"
+      ],
+      "keywords": "dementia, memory, conversation, confusion",
+      "summary": "Ways to support communication as dementia changes.",
+      "version": 1,
+      "owner": "Older adults lead",
+      "review_date": "2026-08-31",
+      "status": "Active",
+      "file": "files/LA-004-v1.pdf"
+    },
+    {
+      "id": "FL-001",
+      "title": "Stammering in young children: advice for parents",
+      "topic": "FL",
+      "audience": [
+        "Children"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "stuttering, stammer, dysfluency, preschool",
+      "summary": "What stammering is and how to support your child at home.",
+      "version": 1,
+      "owner": "Paediatric team lead",
+      "review_date": "2027-01-15",
+      "status": "Active",
+      "file": "files/FL-001-v1.pdf"
+    },
+    {
+      "id": "FL-002",
+      "title": "Stammering: information for adults",
+      "topic": "FL",
+      "audience": [
+        "Adults"
+      ],
+      "type": "Information",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "stuttering, stammer, fluency, therapy",
+      "summary": "Information about stammering and the support available to adults.",
+      "version": 1,
+      "owner": "Adult fluency lead",
+      "review_date": "2027-10-31",
+      "status": "Active",
+      "file": "files/FL-002-v1.pdf"
+    },
+    {
+      "id": "AC-001",
+      "title": "Using a communication board",
+      "topic": "AC",
+      "audience": [
+        "Adults",
+        "Family and carers"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [
+        "Motor neurone disease (MND)",
+        "Stroke"
+      ],
+      "keywords": "AAC, alphabet board, pointing, communication aid",
+      "summary": "How to use an alphabet or picture board to communicate.",
+      "version": 1,
+      "owner": "AAC lead",
+      "review_date": "2027-02-28",
+      "status": "Active",
+      "file": "files/AC-001-v1.pdf"
+    },
+    {
+      "id": "AC-002",
+      "title": "Ways to communicate without speaking (easy read)",
+      "topic": "AC",
+      "audience": [
+        "Everyone"
+      ],
+      "type": "Information",
+      "format": "Easy read",
+      "conditions": [
+        "Learning disability",
+        "Autism"
+      ],
+      "keywords": "AAC, symbols, signing, Makaton, communication aids",
+      "summary": "An easy read guide to signs, symbols and communication aids.",
+      "version": 1,
+      "owner": "AAC lead",
+      "review_date": "2027-09-30",
+      "status": "Active",
+      "file": "files/AC-002-v1.pdf"
+    },
+    {
+      "id": "EC-001",
+      "title": "Helping your child to talk: play ideas for every day",
+      "topic": "EC",
+      "audience": [
+        "Children"
+      ],
+      "type": "Everyday tips",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "late talker, first words, play, toddler",
+      "summary": "Simple play and talking ideas to build your child's communication.",
+      "version": 2,
+      "owner": "Paediatric team lead",
+      "review_date": "2027-05-31",
+      "status": "Active",
+      "file": "files/EC-001-v2.pdf"
+    },
+    {
+      "id": "GN-001",
+      "title": "Your speech and language therapy appointment",
+      "topic": "GN",
+      "audience": [
+        "Everyone"
+      ],
+      "type": "About our service",
+      "format": "Standard",
+      "conditions": [],
+      "keywords": "appointment, what to expect, contact, cancel",
+      "summary": "What happens at your appointment and how to contact us.",
+      "version": 1,
+      "owner": "Service manager",
+      "review_date": "2027-10-31",
+      "status": "Active",
+      "file": "files/GN-001-v1.pdf"
+    }
+  ]
+}
