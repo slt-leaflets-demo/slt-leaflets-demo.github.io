@@ -1,0 +1,10 @@
+{
+  "siteName": "Speech and language therapy leaflets",
+  "organisation": "[Trust name] Speech and Language Therapy",
+  "publicUrl": "https://slt-leaflets-demo.github.io/",
+  "demo": true,
+  "dueSoonDays": 90,
+  "maxPackSize": 10,
+  "contactText": "Speech and Language Therapy, [Hospital name]. Telephone: [placeholder]. These are not real contact details.",
+  "editUrl": "https://app.pagescms.org"
+}

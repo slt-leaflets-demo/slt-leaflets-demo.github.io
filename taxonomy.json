@@ -1,0 +1,105 @@
+{
+  "topics": [
+    {
+      "code": "SW",
+      "label": "Swallowing (dysphagia)",
+      "patient_label": "Eating, drinking and swallowing"
+    },
+    {
+      "code": "VO",
+      "label": "Voice",
+      "patient_label": "Your voice"
+    },
+    {
+      "code": "SP",
+      "label": "Speech",
+      "patient_label": "Speaking clearly"
+    },
+    {
+      "code": "LA",
+      "label": "Language",
+      "patient_label": "Understanding and using words"
+    },
+    {
+      "code": "FL",
+      "label": "Fluency (stammering)",
+      "patient_label": "Stammering"
+    },
+    {
+      "code": "AC",
+      "label": "Communication aids (AAC)",
+      "patient_label": "Other ways to communicate"
+    },
+    {
+      "code": "EC",
+      "label": "Early communication (children)",
+      "patient_label": "Helping your child communicate"
+    },
+    {
+      "code": "GN",
+      "label": "Service information",
+      "patient_label": "About our service"
+    }
+  ],
+  "audiences": [
+    {
+      "value": "Adults",
+      "patient_label": "For adults"
+    },
+    {
+      "value": "Children",
+      "patient_label": "For children (written for parents and carers)"
+    },
+    {
+      "value": "Family and carers",
+      "patient_label": "For family and carers"
+    },
+    {
+      "value": "Everyone",
+      "patient_label": "For everyone"
+    }
+  ],
+  "types": [
+    "Information",
+    "Exercises",
+    "Everyday tips",
+    "Safety advice",
+    "About our service"
+  ],
+  "formats": [
+    "Standard",
+    "Easy read",
+    "Aphasia-friendly"
+  ],
+  "conditions": [
+    "Stroke",
+    "Brain injury",
+    "Parkinson's",
+    "Motor neurone disease (MND)",
+    "Multiple sclerosis (MS)",
+    "Dementia",
+    "Head and neck cancer",
+    "Tracheostomy",
+    "Learning disability",
+    "Autism",
+    "Developmental language disorder (DLD)",
+    "Cleft lip and palate"
+  ],
+  "statuses": [
+    "Active",
+    "Withdrawn"
+  ],
+  "owner_roles": [
+    "Service manager",
+    "Adult dysphagia lead",
+    "Stroke team lead",
+    "Neurology lead",
+    "Head and neck lead",
+    "Voice lead",
+    "Older adults lead",
+    "Adult fluency lead",
+    "Learning disability lead",
+    "AAC lead",
+    "Paediatric team lead"
+  ]
+}

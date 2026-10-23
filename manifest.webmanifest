@@ -1,0 +1,16 @@
+{
+  "name": "Speech and language therapy leaflets",
+  "short_name": "SLT leaflets",
+  "description": "Leaflets from your speech and language therapy team.",
+  "lang": "en-GB",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f0f4f5",
+  "theme_color": "#005eb8",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
