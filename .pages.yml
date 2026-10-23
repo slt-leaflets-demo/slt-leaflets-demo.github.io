@@ -1,0 +1,201 @@
+# Pages CMS settings (https://pagescms.org)
+# Tells the editor which files staff can change and what the form looks like.
+# The tag lists below must match data/taxonomy.json. Changing them is an occasional technical job.
+
+media:
+  input: files
+  output: /files
+  extensions: [pdf]
+  rename: safe
+
+content:
+  - name: leaflets
+    label: Leaflets
+    type: file
+    path: data/catalogue.json
+    format: json
+    fields:
+      - name: leaflets
+        label: Leaflets (click one to open it, or "Add an entry" at the bottom for a new leaflet)
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{id}  {title}  ({status})"
+        fields:
+          - name: id
+            label: Leaflet code
+            type: string
+            required: true
+            description: "2 capital letters, a hyphen and 3 numbers, e.g. SW-007. The staff page shows the next free code. Never change or reuse a code."
+            pattern:
+              regex: "^[A-Z]{2}-[0-9]{3}$"
+              message: "Use 2 capital letters, a hyphen and 3 numbers, for example SW-007"
+          - name: title
+            label: Title
+            type: string
+            required: true
+          - name: summary
+            label: Summary for patients
+            type: text
+            required: true
+            description: "One short, plain-English sentence. Shown under the title in the patient library."
+          - name: file
+            label: PDF file
+            type: file
+            required: true
+            description: "Upload the new PDF here. Tip: name it with the code and version first, e.g. SW-007-v1.pdf"
+            options:
+              extensions: [pdf]
+          - name: version
+            label: Version number
+            type: number
+            required: true
+            description: "Add 1 each time you replace the PDF."
+          - name: review_date
+            label: Review date
+            type: date
+            required: true
+            options:
+              format: yyyy-MM-dd
+          - name: status
+            label: Status
+            type: select
+            required: true
+            description: "Choose Withdrawn to retire a leaflet. Its QR code will then show a 'no longer available' page."
+            options:
+              values:
+                - "Active"
+                - "Withdrawn"
+          - name: topic
+            label: Topic
+            type: select
+            required: true
+            options:
+              values:
+                - name: "SW"
+                  label: "SW  Swallowing (dysphagia)"
+                - name: "VO"
+                  label: "VO  Voice"
+                - name: "SP"
+                  label: "SP  Speech"
+                - name: "LA"
+                  label: "LA  Language"
+                - name: "FL"
+                  label: "FL  Fluency (stammering)"
+                - name: "AC"
+                  label: "AC  Communication aids (AAC)"
+                - name: "EC"
+                  label: "EC  Early communication (children)"
+                - name: "GN"
+                  label: "GN  Service information"
+          - name: audience
+            label: Who it is for (choose one or more)
+            type: select
+            required: true
+            options:
+              multiple: true
+              values:
+                - "Adults"
+                - "Children"
+                - "Family and carers"
+                - "Everyone"
+          - name: type
+            label: Type of leaflet
+            type: select
+            required: true
+            options:
+              values:
+                - "Information"
+                - "Exercises"
+                - "Everyday tips"
+                - "Safety advice"
+                - "About our service"
+          - name: format
+            label: Format
+            type: select
+            required: true
+            options:
+              values:
+                - "Standard"
+                - "Easy read"
+                - "Aphasia-friendly"
+          - name: conditions
+            label: Conditions (optional, choose any that apply)
+            type: select
+            options:
+              multiple: true
+              values:
+                - "Stroke"
+                - "Brain injury"
+                - "Parkinson's"
+                - "Motor neurone disease (MND)"
+                - "Multiple sclerosis (MS)"
+                - "Dementia"
+                - "Head and neck cancer"
+                - "Tracheostomy"
+                - "Learning disability"
+                - "Autism"
+                - "Developmental language disorder (DLD)"
+                - "Cleft lip and palate"
+          - name: keywords
+            label: Extra search words (optional)
+            type: string
+            description: "Other words people might search for, separated by commas, e.g. thickener, IDDSI"
+          - name: owner
+            label: Owner (a role, never a person's name)
+            type: select
+            required: true
+            options:
+              values:
+                - "Service manager"
+                - "Adult dysphagia lead"
+                - "Stroke team lead"
+                - "Neurology lead"
+                - "Head and neck lead"
+                - "Voice lead"
+                - "Older adults lead"
+                - "Adult fluency lead"
+                - "Learning disability lead"
+                - "AAC lead"
+                - "Paediatric team lead"
+
+  - name: site
+    label: Site settings
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: siteName
+        label: Site name
+        type: string
+        required: true
+      - name: organisation
+        label: Team and trust name
+        type: string
+        required: true
+      - name: publicUrl
+        label: Public web address (used in every QR code)
+        type: string
+        required: true
+        description: "Only change this when the site moves to a new address. Every QR code is made from it."
+        pattern:
+          regex: "^https://.+/$"
+          message: "Start with https:// and end with /"
+      - name: demo
+        label: Show the demonstration banner
+        type: boolean
+      - name: dueSoonDays
+        label: Flag reviews due within this many days
+        type: number
+        required: true
+      - name: maxPackSize
+        label: Most leaflets in one patient pack
+        type: number
+        required: true
+      - name: contactText
+        label: Contact details shown to patients
+        type: text
+      - name: editUrl
+        label: Address of the editor (linked from the staff page)
+        type: string
